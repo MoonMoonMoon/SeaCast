@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D555651BF4B5AF00AF77FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D555641BF4B5AF00AF77FA /* main.m */; };
+		D4D555681BF4B5AF00AF77FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D555671BF4B5AF00AF77FA /* AppDelegate.m */; };
+		D4D5556B1BF4B5AF00AF77FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D5556A1BF4B5AF00AF77FA /* ViewController.m */; };
+		D4D5556E1BF4B5AF00AF77FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5556C1BF4B5AF00AF77FA /* Main.storyboard */; };
+		D4D555711BF4B5AF00AF77FA /* SeaCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4D5556F1BF4B5AF00AF77FA /* SeaCast.xcdatamodeld */; };
+		D4D555731BF4B5AF00AF77FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D555721BF4B5AF00AF77FA /* Assets.xcassets */; };
+		D4D555761BF4B5AF00AF77FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D555741BF4B5AF00AF77FA /* LaunchScreen.storyboard */; };
+		D4D555811BF4B5AF00AF77FA /* SeaCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D555801BF4B5AF00AF77FA /* SeaCastTests.m */; };
+		D4D5558C1BF4B5AF00AF77FA /* SeaCastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D5558B1BF4B5AF00AF77FA /* SeaCastUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D5557D1BF4B5AF00AF77FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D555581BF4B5AF00AF77FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D5555F1BF4B5AF00AF77FA;
+			remoteInfo = SeaCast;
+		};
+		D4D555881BF4B5AF00AF77FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D555581BF4B5AF00AF77FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D5555F1BF4B5AF00AF77FA;
+			remoteInfo = SeaCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D555601BF4B5AF00AF77FA /* SeaCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D555641BF4B5AF00AF77FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4D555661BF4B5AF00AF77FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4D555671BF4B5AF00AF77FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4D555691BF4B5AF00AF77FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4D5556A1BF4B5AF00AF77FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4D5556D1BF4B5AF00AF77FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D555701BF4B5AF00AF77FA /* SeaCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeaCast.xcdatamodel; sourceTree = "<group>"; };
+		D4D555721BF4B5AF00AF77FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D555751BF4B5AF00AF77FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4D555771BF4B5AF00AF77FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D5557C1BF4B5AF00AF77FA /* SeaCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D555801BF4B5AF00AF77FA /* SeaCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeaCastTests.m; sourceTree = "<group>"; };
+		D4D555821BF4B5AF00AF77FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D555871BF4B5AF00AF77FA /* SeaCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D5558B1BF4B5AF00AF77FA /* SeaCastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeaCastUITests.m; sourceTree = "<group>"; };
+		D4D5558D1BF4B5AF00AF77FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D5555D1BF4B5AF00AF77FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D555791BF4B5AF00AF77FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D555841BF4B5AF00AF77FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D555571BF4B5AF00AF77FA = {
+			isa = PBXGroup;
+			children = (
+				D4D555621BF4B5AF00AF77FA /* SeaCast */,
+				D4D5557F1BF4B5AF00AF77FA /* SeaCastTests */,
+				D4D5558A1BF4B5AF00AF77FA /* SeaCastUITests */,
+				D4D555611BF4B5AF00AF77FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D555611BF4B5AF00AF77FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D555601BF4B5AF00AF77FA /* SeaCast.app */,
+				D4D5557C1BF4B5AF00AF77FA /* SeaCastTests.xctest */,
+				D4D555871BF4B5AF00AF77FA /* SeaCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D555621BF4B5AF00AF77FA /* SeaCast */ = {
+			isa = PBXGroup;
+			children = (
+				D4D555661BF4B5AF00AF77FA /* AppDelegate.h */,
+				D4D555671BF4B5AF00AF77FA /* AppDelegate.m */,
+				D4D555691BF4B5AF00AF77FA /* ViewController.h */,
+				D4D5556A1BF4B5AF00AF77FA /* ViewController.m */,
+				D4D5556C1BF4B5AF00AF77FA /* Main.storyboard */,
+				D4D555721BF4B5AF00AF77FA /* Assets.xcassets */,
+				D4D555741BF4B5AF00AF77FA /* LaunchScreen.storyboard */,
+				D4D555771BF4B5AF00AF77FA /* Info.plist */,
+				D4D5556F1BF4B5AF00AF77FA /* SeaCast.xcdatamodeld */,
+				D4D555631BF4B5AF00AF77FA /* Supporting Files */,
+			);
+			path = SeaCast;
+			sourceTree = "<group>";
+		};
+		D4D555631BF4B5AF00AF77FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D555641BF4B5AF00AF77FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D5557F1BF4B5AF00AF77FA /* SeaCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D555801BF4B5AF00AF77FA /* SeaCastTests.m */,
+				D4D555821BF4B5AF00AF77FA /* Info.plist */,
+			);
+			path = SeaCastTests;
+			sourceTree = "<group>";
+		};
+		D4D5558A1BF4B5AF00AF77FA /* SeaCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D5558B1BF4B5AF00AF77FA /* SeaCastUITests.m */,
+				D4D5558D1BF4B5AF00AF77FA /* Info.plist */,
+			);
+			path = SeaCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D5555F1BF4B5AF00AF77FA /* SeaCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D555901BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCast" */;
+			buildPhases = (
+				D4D5555C1BF4B5AF00AF77FA /* Sources */,
+				D4D5555D1BF4B5AF00AF77FA /* Frameworks */,
+				D4D5555E1BF4B5AF00AF77FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaCast;
+			productName = SeaCast;
+			productReference = D4D555601BF4B5AF00AF77FA /* SeaCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D5557B1BF4B5AF00AF77FA /* SeaCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D555931BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCastTests" */;
+			buildPhases = (
+				D4D555781BF4B5AF00AF77FA /* Sources */,
+				D4D555791BF4B5AF00AF77FA /* Frameworks */,
+				D4D5557A1BF4B5AF00AF77FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D5557E1BF4B5AF00AF77FA /* PBXTargetDependency */,
+			);
+			name = SeaCastTests;
+			productName = SeaCastTests;
+			productReference = D4D5557C1BF4B5AF00AF77FA /* SeaCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D555861BF4B5AF00AF77FA /* SeaCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D555961BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCastUITests" */;
+			buildPhases = (
+				D4D555831BF4B5AF00AF77FA /* Sources */,
+				D4D555841BF4B5AF00AF77FA /* Frameworks */,
+				D4D555851BF4B5AF00AF77FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D555891BF4B5AF00AF77FA /* PBXTargetDependency */,
+			);
+			name = SeaCastUITests;
+			productName = SeaCastUITests;
+			productReference = D4D555871BF4B5AF00AF77FA /* SeaCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D555581BF4B5AF00AF77FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "胡经纬";
+				TargetAttributes = {
+					D4D5555F1BF4B5AF00AF77FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ES7DLFZ2W8;
+					};
+					D4D5557B1BF4B5AF00AF77FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ES7DLFZ2W8;
+						TestTargetID = D4D5555F1BF4B5AF00AF77FA;
+					};
+					D4D555861BF4B5AF00AF77FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ES7DLFZ2W8;
+						TestTargetID = D4D5555F1BF4B5AF00AF77FA;
+					};
+				};
+			};
+			buildConfigurationList = D4D5555B1BF4B5AF00AF77FA /* Build configuration list for PBXProject "SeaCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D555571BF4B5AF00AF77FA;
+			productRefGroup = D4D555611BF4B5AF00AF77FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D5555F1BF4B5AF00AF77FA /* SeaCast */,
+				D4D5557B1BF4B5AF00AF77FA /* SeaCastTests */,
+				D4D555861BF4B5AF00AF77FA /* SeaCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D5555E1BF4B5AF00AF77FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D555761BF4B5AF00AF77FA /* LaunchScreen.storyboard in Resources */,
+				D4D555731BF4B5AF00AF77FA /* Assets.xcassets in Resources */,
+				D4D5556E1BF4B5AF00AF77FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D5557A1BF4B5AF00AF77FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D555851BF4B5AF00AF77FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D5555C1BF4B5AF00AF77FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D555711BF4B5AF00AF77FA /* SeaCast.xcdatamodeld in Sources */,
+				D4D5556B1BF4B5AF00AF77FA /* ViewController.m in Sources */,
+				D4D555681BF4B5AF00AF77FA /* AppDelegate.m in Sources */,
+				D4D555651BF4B5AF00AF77FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D555781BF4B5AF00AF77FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D555811BF4B5AF00AF77FA /* SeaCastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D555831BF4B5AF00AF77FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D5558C1BF4B5AF00AF77FA /* SeaCastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D5557E1BF4B5AF00AF77FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D5555F1BF4B5AF00AF77FA /* SeaCast */;
+			targetProxy = D4D5557D1BF4B5AF00AF77FA /* PBXContainerItemProxy */;
+		};
+		D4D555891BF4B5AF00AF77FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D5555F1BF4B5AF00AF77FA /* SeaCast */;
+			targetProxy = D4D555881BF4B5AF00AF77FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D5556C1BF4B5AF00AF77FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D5556D1BF4B5AF00AF77FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D555741BF4B5AF00AF77FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D555751BF4B5AF00AF77FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D5558E1BF4B5AF00AF77FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4D5558F1BF4B5AF00AF77FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D555911BF4B5AF00AF77FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeaCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4D555921BF4B5AF00AF77FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeaCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4D555941BF4B5AF00AF77FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeaCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCast.app/SeaCast";
+			};
+			name = Debug;
+		};
+		D4D555951BF4B5AF00AF77FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeaCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCast.app/SeaCast";
+			};
+			name = Release;
+		};
+		D4D555971BF4B5AF00AF77FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeaCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeaCast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4D555981BF4B5AF00AF77FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeaCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = echo.SeaCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeaCast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D5555B1BF4B5AF00AF77FA /* Build configuration list for PBXProject "SeaCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D5558E1BF4B5AF00AF77FA /* Debug */,
+				D4D5558F1BF4B5AF00AF77FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D555901BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D555911BF4B5AF00AF77FA /* Debug */,
+				D4D555921BF4B5AF00AF77FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D555931BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D555941BF4B5AF00AF77FA /* Debug */,
+				D4D555951BF4B5AF00AF77FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D555961BF4B5AF00AF77FA /* Build configuration list for PBXNativeTarget "SeaCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D555971BF4B5AF00AF77FA /* Debug */,
+				D4D555981BF4B5AF00AF77FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4D5556F1BF4B5AF00AF77FA /* SeaCast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4D555701BF4B5AF00AF77FA /* SeaCast.xcdatamodel */,
+			);
+			currentVersion = D4D555701BF4B5AF00AF77FA /* SeaCast.xcdatamodel */;
+			path = SeaCast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4D555581BF4B5AF00AF77FA /* Project object */;
+}
